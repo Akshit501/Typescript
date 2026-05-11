@@ -30,6 +30,7 @@ app.get("/user",(req:Request,res:Response)=>{
 
 });
 
+
 app.put("/update",(req:Request,res:Response)=>{
   type UpdateData={
     id:number,
@@ -69,6 +70,9 @@ app.post("/create",(req:Request,res:Response)=>{
   })
 })
 
+
 app.listen(PORT,()=>{ 
   console.log(`Server is running on port ${PORT}`);
 });
+
+//hello bro just testing the server file with typescript and express.
